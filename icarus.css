@@ -1,0 +1,40 @@
+body{
+	background-color: #FFFFFF;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
+	font-weight: 200;
+}
+
+.logoClass {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1{
+	
+	text-align: center;
+
+}
+
+li a{
+
+	font-style: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: #000000;
+	color: #FFFFFF;
+
+}
+
+
+
+li{
+	list-style: none;
+	display: inline-block;
+
+
+}
+
