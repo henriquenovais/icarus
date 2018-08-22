@@ -19,7 +19,7 @@ h1{
 
 ul{
 	text-align: center;
-	margin: 0 auto;
+	margin: 0% auto 2% auto;
 	padding: 0;
 }
 
@@ -38,6 +38,7 @@ li a{
 	font-style: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 	font-weight: bold;
 	text-decoration: none;
+	color: #000;
 
 }
 
@@ -45,6 +46,33 @@ li a:hover{
 
 	background-color: #000000;
 	color: #FFFFFF;
+
+}
+
+#galeria_inicial{
+
+	text-align: center;
+	outline: 1px dashed black;
+	padding: 13% 0%;
+	margin: 2% 5%;
+}
+
+#galeria_direita {
+	margin-top: 10%;
+	float: right;
+	clear: right;
+	font-weight: bold;
+	font-size: 5em;
+
+}
+
+#galeria_esquerda {
+	
+	margin-top:10%;
+	float: left;
+	clear: left;
+	font-weight: bold;
+	font-size: 5em;
 
 }
 
