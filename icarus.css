@@ -6,8 +6,9 @@ body{
 
 .logoClass {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	width: 13%;
+	margin:0 auto;
+
 }
 
 h1{
@@ -16,14 +17,32 @@ h1{
 
 }
 
+ul{
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+
+li{
+
+	width: 24%;
+	list-style: none;
+	display: inline-block;
+
+	}
+
 li a{
 
 	font-style: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 	font-weight: bold;
 	text-decoration: none;
+
 }
 
 li a:hover{
+
 	background-color: #000000;
 	color: #FFFFFF;
 
@@ -31,10 +50,5 @@ li a:hover{
 
 
 
-li{
-	list-style: none;
-	display: inline-block;
 
-
-}
 
