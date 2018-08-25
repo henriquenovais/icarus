@@ -2,6 +2,8 @@ body{
 	background-color: #FFFFFF;
 	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 	font-weight: 200;
+	margin: 0 0;
+	padding: 0 0;
 }
 
 .logoClass {
@@ -50,31 +52,28 @@ li a:hover{
 }
 
 #galeria_inicial{
-	display: block;
 	text-align: center;
 	outline: 1px dashed black;
 	width: 100%;
-    height: 28em;
-	margin: -1% 0% 0% 0%;
+    height: 31em;
+	position: relative;
 }
 
 #galeria_direita {
-	margin: 10% 1% 1% 1%;
-	padding: 0 0 0 0;
-	float: right;
-	clear: right;
+	position: absolute;
+	margin: 13% 0% 0% 95.3%;
 	font-weight: bold;
 	font-size: 5em;
+	z-index: 1;
 
 }
 
 #galeria_esquerda {
-	padding: 0 0 0 0;
-	margin: 10% 1% 1% 1%;
-	float: left;
-	clear: left;
+	position: absolute;
+	margin: 13% 0% 0% 0%;
 	font-weight: bold;
 	font-size: 5em;
+	z-index: 1;
 
 }
 
@@ -83,6 +82,9 @@ p {
 	margin: 4% 10% 4% 10%;
 }
 
+hr{
+	margin:0 0;
+}
 
 
 
