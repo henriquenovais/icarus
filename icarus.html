@@ -4,19 +4,25 @@
 		<title> Ícaro Cerqueira Fotografia</title>
 
 		<link rel="stylesheet" type="text/css" href="icarus.css">
+		<script type="text/javascript src="jquery-3.3.1.min.js"></script>
 		<meta charset="utf-8">
 		<meta name="author" content="Henrique Oliveira">
 	</head>
 
 	<body>
-		 <img class="logoClass" id="home"name="logo" src="images/logo.png">
 
-		 <ul>
-		 	<li><a href="#home">Início</a></li>
-		 	<li><a href="#sobre">Sobre</a></li>
-		 	<li><a href="#portfolio">Portfolio</a></li>
-		 	<li><a href="#contato">Contato</a></li>
-		 </ul>
+		<nav class="MainMenu">	
+		 	<img class="logoClass" id="home"name="logo" src="images/logo.png">
+		
+			 
+			 <ul class="MainMenu">
+			 	<li class="MainMenu"><a href="#home">Início</a></li>
+			 	<li class="MainMenu"><a href="#sobre">Sobre</a></li>
+			 	<li class="MainMenu"><a href="#portfolio">Portfolio</a></li>
+			 	<li class="MainMenu"><a href="#contato">Contato</a></li>
+			 </ul>
+		</nav>
+
 		 <input type="button" id="galeria_esquerda" name="galeria_direita" value="<">
 		 <input type="button" id="galeria_direita" name="galeria_esquerda" value=">">
 		 <img id="galeria_inicial" name="galeria_inicial" src="images/placeholder2.jpg">
@@ -35,6 +41,8 @@
 		 <h1 id="portfolio">Portfolio</h1>
 
 		 <h1 id="contato">Contato</h1>
+
+		 <script type="text/javascript" src="icarus.js"></script>
 
 	</body>
 </html>

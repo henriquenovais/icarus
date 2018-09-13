@@ -8,10 +8,18 @@ body{
 	
 }
 
-.logoClass {
+nav .MainMenu{
+	background-color: #00FFFF;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+
+img.logoClass {
 	display: block;
 	width: 13%;
 	margin:0 auto;
+	position: relative;
 
 }
 
@@ -21,7 +29,7 @@ h1{
 
 }
 
-ul{
+ul.MainMenu{
 	text-align: center;
 	margin: 0% auto 2% auto;
 	padding: 0;
@@ -29,24 +37,26 @@ ul{
 
 
 
-li{
+li.MainMenu{
 
 	width: 24%;
 	list-style: none;
 	display: inline-block;
+	position: relative;
 
 	}
 
-li a{
+li.MainMenu a{
 
 	font-style: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 	font-weight: bold;
 	text-decoration: none;
 	color: #000;
 
+
 }
 
-li a:hover{
+li.MainMenu a:hover{
 
 	background-color: #000000;
 	color: #FFFFFF;
